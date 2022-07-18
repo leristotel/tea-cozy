@@ -1,0 +1,181 @@
+@font-face {
+
+    font-family: 'Helvetica';
+ src: url('../fonts/Helvetica-Bold.ttf ') format('truetype'),
+    url('../fonts/Helvetica-BoldOblique.ttf') format('truetype'),
+    url('../fonts/helvetica-compressed-5871d14b6903a.otf') format('opentype'),
+    url('../fonts/helvetica-light-587ebe5a59211.ttf') format('truetype'),
+    url('../fonts/Helvetica-Oblique.ttf') format('truetype'),
+    url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf') format('opentype'),
+    url('../fonts/Helvetica.ttf') format('truetype');
+}
+body{
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity:0.9;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 69px;
+    position: sticky;
+    align-items: center;
+    margin:0px 10px;
+    border-bottom: 1px solid seashell;
+
+}
+.header__logo{
+    height: 50px;
+}
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    width: 400px;
+    justify-content: space-between;
+    
+}
+
+.mission{
+    height: 700px;
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+    text-align: center;
+}
+.mission-image{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.mission__description{
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin:0 auto;
+
+}
+h2,h4{
+    margin: 8px 0px 0px 0px;
+}
+.TeaOfMonth{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 64px auto 0px;
+}
+.TeaOfMonth__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+
+}
+.TeaOfMonth__type{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.TeaOfMonth__type-item{
+    margin: 16px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TeaOfMonth__type-item-image{
+    height: 200px;
+    width: 300px;
+}
+.TeaOfMonth__type-item-name{
+    margin-top: 10px;
+}
+.locations{
+    height: 500px;
+    width: 1200px;
+    margin: 64px auto 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.locations__containerImage{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+}
+
+.locations__containerImage-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.location__item-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations__item{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 20px;
+    width: 300px;
+    opacity:1;
+    height:min-content;
+    margin-bottom: 52.5px;
+}
+.locations__items-text{
+    text-align: center;
+}
+.locations-head{
+    margin: 0px 0px 15px 0px;
+}
+.footer{
+    margin: 0px auto 0px;
+}
+.footer__content-address-link{
+    color: white;
+
+}
+.footer__content{
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__content-number{
+    margin:0px;
+}
+.copyright{
+    margin-left: 20px;
+    text-align: left;
+}
